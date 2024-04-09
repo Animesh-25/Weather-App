@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherUps</title>
+</head>
+<!-- <h1 style="color:cadetblue; border-radius: 3px; text-align: center;">This website is now on developing phase </h1> -->
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter Your Place " class="input-box">
+                <button id="butt" class="fa-solid fa-magnifying-glass" id="search-button"></button>
+            </div>
+        </div>
+        <div class="location_notfound">
+            <h1>Sorry, City Not Found !!!</h1>
+            <img src="/imge/error.png" alt="Error">
+        </div>
+        <div class="weatherbody">
+            <img src="/imge/clear.png" alt="Weather-Image" class="Weather-Image">
+            <div class="weathertempbox">
+                <p class="temperature">0 <sup>°C</sup> </p>
+                <p class="description">Clear Sky</p>
+            </div>
+            <div class="weatherdetails">
+                <div class="humidity">
+                    <i class="fa-solid fa-hand-holding-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">0%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind">0kmph</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <script src="weatherscript.js"></script>
+    <script src="https://kit.fontawesome.com/19c53796f8.js" crossorigin="anonymous"></script>
+</body>
+</html>

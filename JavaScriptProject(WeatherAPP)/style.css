@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: cursive;
+}
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+   background-color: rgb(48, 44, 44);
+}
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: white;
+    padding: 15px;
+    border-radius: 18px;
+    border: 4px solid rgb(57, 10, 244)
+}
+.search-box{
+    /* background-color: red; */
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-box{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: rgb(230, 255, 247);
+    border-radius: 12px;
+}
+.search-box input::placeholder{
+    color: black;
+}
+#butt{
+    height: 45px;
+    width: 45px;
+    border-radius: 20px;
+    background-color: rgb(226, 255, 245);
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+#butt:hover{
+    color: #fff;
+    background-color: grey;
+}
+.weatherbody img{
+    width: 60%;
+}
+.weatherbody{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+.weathertempbox{
+    margin-block: 20px;
+    text-align: center;
+}
+.weathertempbox .temperature{
+    font-size: 30px;
+    font-weight:bolder;
+    position: relative;
+    /* position changing for the alignment of degree celcius  */
+}
+.weathertempbox .temperature sup{
+    font-size: 15px;
+    position: absolute;
+}
+.weathertempbox .description{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.weatherdetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: top 20px ;
+}
+.humidity, .wind{
+    display: flex;
+    align-items: center;
+}
+.humidity{
+    margin-left: 20px;
+}
+.wind{
+    margin-right: 20px;
+}
+.weatherdetails i{
+    font-size: 25px;
+}
+.weatherdetails .text{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.text span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.location_notfound{
+    margin-top: 25px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.location_notfound h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.location_notfound img{
+    width: 60%
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/imge/cloudy_background.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents background image from repeating */
+    background-attachment: fixed; /* Fixes the background image position */
+}
