@@ -8,7 +8,6 @@ const wind_speed=document.getElementById('wind');
 const error_location=document.querySelector('.location_notfound')
 const weatherbody=document.querySelector('.weatherbody')
 
-// const api_key="3134c5a4d4ee5132be031bde869bd242";
 // let url;
 // async function findWeather(place){
 
