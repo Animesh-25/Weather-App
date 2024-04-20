@@ -25,7 +25,7 @@ const weatherbody=document.querySelector('.weatherbody')
 
 //Main Code Starts here 
 document.addEventListener("DOMContentLoaded", function() {
-    const api_key = "3134c5a4d4ee5132be031bde869bd242";
+    
     let url;
 
     async function findWeather(place) {
